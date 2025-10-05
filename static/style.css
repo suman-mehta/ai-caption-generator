@@ -1,0 +1,114 @@
+body { 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+    background-color: #121212; 
+    color: #e0e0e0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+}
+
+.container { 
+    background-color: #1e1e1e; 
+    padding: 40px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5); 
+    text-align: center; 
+    max-width: 80%;
+}
+
+h1 { 
+    color: #bb86fc; 
+}
+
+/* Index Page Styles */
+input[type="file"] { 
+    border: 2px dashed #333; 
+    padding: 20px; 
+    border-radius: 5px; 
+    background-color: #222; 
+    cursor: pointer; 
+    color: #999; 
+}
+
+input[type="submit"] { 
+    background-color: #03dac6; 
+    color: #121212; 
+    border: none; 
+    padding: 15px 30px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-top: 20px; 
+    transition: background-color 0.3s; 
+}
+
+input[type="submit"]:hover { 
+    background-color: #32fded; 
+}
+
+#loader { 
+    display: none; 
+    margin-top: 20px; 
+}
+
+/* Result Page Styles */
+.result-caption { 
+    background-color: #333; 
+    padding: 20px; 
+    border-radius: 5px; 
+    font-size: 1.2em; 
+    font-style: italic; 
+    color: #03dac6; 
+}
+
+.result-link { 
+    display: inline-block; 
+    background-color: #03dac6; 
+    color: #121212; 
+    text-decoration: none; 
+    padding: 15px 30px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-top: 20px; 
+    transition: background-color 0.3s; 
+}
+
+.result-link:hover { 
+    background-color: #32fded; 
+}
+
+/* Error Page Styles */
+.error-heading {
+    color: #cf6679;
+}
+
+.error-message {
+    background-color: #4d2d33; 
+    padding: 20px; 
+    border-radius: 5px; 
+    font-size: 1.1em; 
+    color: #f2b8b5;
+}
+
+.error-link {
+    display: inline-block; 
+    background-color: #bb86fc; 
+    color: #121212; 
+    text-decoration: none; 
+    padding: 15px 30px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-top: 20px; 
+    transition: background-color 0.3s;
+}
+
+.error-link:hover {
+    background-color: #d1b3ff;
+}
